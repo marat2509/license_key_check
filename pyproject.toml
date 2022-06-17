@@ -1,0 +1,15 @@
+[project]
+name = "license_key_check"
+description = "his module allows you to use it in your program in order to verify the product license key"
+version = "0.2"
+authors = [
+    { name = "marat2509", email = "marat.budkevich.0000@gmail.com" }
+]
+dependencies = [
+    "loguru",
+    "requests"
+]
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools"]
